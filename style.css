@@ -76,3 +76,11 @@ body {
 .button-custom:hover:after {
     opacity: 0;
 }
+
+.trapezoid {
+    border-bottom: 150px solid #9CAEDB;
+    border-left: -2px solid transparent;
+    border-right: 125px solid transparent;
+    height: 0;
+    width: 60%;
+}
