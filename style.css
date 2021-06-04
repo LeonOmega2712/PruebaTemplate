@@ -8,9 +8,11 @@
 }
 
 body {
-    /* background-image: url("template.png");
-    background-repeat: no-repeat;*/
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
     background-color: #EDF0F7;
+    background-size: contain;
+    background-position: top right;
 }
 
 .margin-title {
@@ -78,9 +80,44 @@ body {
 }
 
 .trapezoid {
-    border-bottom: 150px solid #9CAEDB;
+    border-bottom: 200px solid #9CAEDB;
     border-left: -2px solid transparent;
-    border-right: 125px solid transparent;
+    border-right: 150px solid transparent;
     height: 0;
-    width: 60%;
+    width: 70%;
+}
+
+.img-array {
+    margin-left: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.avatar {
+    margin: 2em 2em 0em 2em !important;
+    vertical-align: middle !important;
+    width: 100px !important;
+    height: 100px !important;
+    padding: 0px !important;
+    /*border-radius: 500px !important;
+    border-style: solid !important;
+    border-width: 3px !important;
+    border-image: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66)) 1 !important;
+    width: 128px;
+    margin: 10px;
+    border: 3px solid;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px; */
+    border: double 4px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at left, #1C45AE, #00E2FE);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.center-text {
+    margin: auto;
+    width: 50%;
+    padding: 1px;
 }
